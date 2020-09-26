@@ -37,6 +37,7 @@ h3{
     color: #003170;
 }
 .content-list{
+    float: left;
     border-radius: 10px;
     margin-top: 5%;
     clear: both;
@@ -91,6 +92,11 @@ li{
 .contact li{
     padding: 0px;
     margin: 2px;
+}
+@media(max-width: 1200px) and (min-width: 1100px){
+    .content h1{
+        font-size: 180%;
+    }
 }
 @media(max-width: 1366px){
     a{
