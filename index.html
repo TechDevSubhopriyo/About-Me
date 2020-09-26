@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="profilepic">
+            <img src="image/profile.jpg">
+        </div>
+        <h1>Subhopriyo Sadhukhan</h1>
+        <h3>Application Developer</h3>
+    </header>
+    <div class="row">
+        <div class="content-list col-sm-3 col-md-3 col-lg-3">
+            <ul>
+                <li>
+                    <a href="#"> About</a><hr>
+                </li>
+                <li>
+                    <a href="#experience"> Experience</a><hr>
+                </li>
+                <li>
+                    <a href="#education"> Education</a><hr>
+                </li>
+                <li>
+                    <a href="#project"> Projects</a><hr>
+                </li>
+                <li>
+                    <a href="#certificate"> Certificates</a><hr>
+                </li>
+                <li>
+                    <a href="#skill"> Skills</a><hr>
+                </li>
+                <li>
+                    <a href="#resume"> Resume</a><hr>
+                </li>
+                <li>
+                    <a href="#contact"> Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9 col-md-9 col-lg-9">
+            <ul>
+                <li>
+                    <div id="about" class="content about">
+                        <h1>About</h1>
+                        <p>
+                            My aim in life is to reach unimaginable heights in developing any marketable product which will be beneficial to humankind and also be ecofriendly. I am a hardworking, self-motivated, sincere person. I love to tinker with circuits, build new models which can make everyday work easier. I am also a software geek.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div id="experience" class="content experience">
+                        <h1>Experience</h1>
+                        <ul>
+                            <li>
+                                <h4>Core Team</h4>
+                                Developer Student Club Heritage Institute of Technology
+                                <br>
+                                Sept, 2020 - Present
+                                <hr>
+                            </li>
+                            <li>
+                                <h4>Technical Head</h4>
+                                agomoni
+                                <br>
+                                May, 2020 - Present
+                                <hr>
+                            </li>
+                            <li>
+                                <h4>Member</h4>
+                                Institute of Electrical and Electronics Engineers (IEEE)
+                                <br>
+                                Sept, 2019 - Present
+                                <hr>
+                            </li>
+                            <li>
+                                <h4>Intern</h4>
+                                Ask Me Trip
+                                <br>
+                                Aug, 2020 - Sept, 2020
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div id="education" class="content education">
+                        <h1>Education</h1>
+                        <ul>
+                            <li>
+                                <h4>Heritage Institute of Technology, Kolkata</h4>
+                                Bachelor of Technology (B.Tech) <br>
+                                Electronics and Communication Engineering (ECE)<br>
+                                2019 - 2023
+                                <hr>
+                            </li>
+                            <li>
+                                <h4>Vivekananda Mission School</h4>
+                                Indian School Certificate (Science)<br>
+                                Council for the Indian School Certificate Examinations<br>
+                                2017 - 2019
+                                <hr>
+                            </li>
+                            <li>
+                                <h4>Vivekananda Mission School</h4>
+                                Indian Certificate of Secondary Education<br>
+                                Council for the Indian School Certificate Examinations<br>
+                                2005 - 2017
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div id="project" class="content projects">
+                        <h1>Projects</h1>
+                        <ul>
+                            <li>
+                                <h4>Chatting App</h4> <span style="font-size: 15px;">(Apr, 2020 - Jun, 2020)</span><br>
+                                The project aimed at creating an android chatting app using android studio and firebase. People can create account with their email id and chat with others using this app. This app portrays a few basic features of Firebase like realtime database and a chatbot.<br>
+                                <a style="font-size: 18px;" href="https://github.com/TechDevSubhopriyo/Chat" target="_blank">Chat App</a>
+                                <hr>
+                            </li>
+                            <li>
+                                <h4>Attendance Manager</h4> <span style="font-size: 15px;">(Dec, 2019 - Jan, 2020)</span><br>
+                                An android application which could be used by different universities to provide attendance to the students attending classes. It was basically like an online register available on the cloud and accessible by sudents and teachers but can only be modified by teachers.<br>
+                                <a style="font-size: 18px;" href="https://github.com/TechDevSubhopriyo/Attendance-Manager" target="_blank">Attendance Manager</a>
+                                <hr>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div id="certificate" class="content certificates">
+
+                    </div>
+                </li>
+                <li>
+                    <div id="event" class="content skills">
+
+                    </div>
+                </li>
+                <li>
+                    <div id="resume" class="content resume">
+
+                    </div>
+                </li>
+                <li>
+                    <div id="contact" class="content contact">
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script>
+        mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        function topFunction() {
+        document.body.scrollTop = 0; 
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

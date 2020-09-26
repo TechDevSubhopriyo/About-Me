@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #001662;
+    padding: 5% 15% 5% 15%;
+}
+header{
+    text-align: right;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    padding-right: 2.5%;
+    color: #FF54D9;
+}
+img{
+    float: left;
+    position: relative;
+    max-width: 25%;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+h1{
+    font-size: 400%;
+    margin-bottom: 5%;
+}
+h3{
+    font-size: 35px;
+}
+.row{
+    clear: both;
+}
+.content-list a{
+    color: #001662;
+}
+.content-list{
+    border-radius: 10px;
+    margin-top: 5%;
+    clear: both;
+    color: #001662;
+    font-size: 200%;
+}
+.content{
+    padding: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #FF54D9;
+    background-color: #001a7762;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.content>p{
+    color: #FF54D9;
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+}
+li{
+    
+    margin-top: 5%;
+    margin-left: 0px;
+}
+.prjects a{
+    color: #FF54D9;
+    text-decoration: #FF54D9;
+}
+.content-list>ul{
+    padding: 2% 5% 5% 5%;
+    border-radius: 10px;
+    margin-top: 5%;
+    clear: both;
+    background-color: #FF54D9;
+}
+.content>ul{
+    list-style-type: disc;
+    padding-left: 5%;
+}
+.content hr{
+    background-color: #ff54dab9;
+}
+.content-list hr{
+    background-color: #0015624d;
+}
+@media(max-width: 1366px){
+    a{
+        font-size: 25px;
+    }
+}
+@media(max-width: 991px){
+    a{
+        font-size: 18px;
+    }
+    li{
+        margin-top: 0%;
+    }
+    ul{
+        margin: 0px;
+    }
+    .content{
+        margin-left: 0px;
+    }
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: #ff54d9; 
+    color: #001662;
+    font-weight: bold;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
