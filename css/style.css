@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    font-family: balsamiq-Sans;
 }
 body{
     background-color: #001662;
-    padding: 5% 15% 5% 15%;
+    padding: 2.5% 15% 5% 15%;
 }
 header{
     text-align: right;
@@ -23,16 +24,17 @@ img{
 }
 h1{
     font-size: 400%;
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
 }
 h3{
     font-size: 35px;
+    color: #4797ff;
 }
 .row{
     clear: both;
 }
 .content-list a{
-    color: #001662;
+    color: #003170;
 }
 .content-list{
     border-radius: 10px;
@@ -50,6 +52,9 @@ h3{
     font-size: 20px;
     border-radius: 15px;
 }
+.content h5,h4{
+    color: #4797ff;
+}
 .content>p{
     color: #FF54D9;
 }
@@ -62,10 +67,7 @@ li{
     margin-top: 5%;
     margin-left: 0px;
 }
-.prjects a{
-    color: #FF54D9;
-    text-decoration: #FF54D9;
-}
+
 .content-list>ul{
     padding: 2% 5% 5% 5%;
     border-radius: 10px;
@@ -73,7 +75,7 @@ li{
     clear: both;
     background-color: #FF54D9;
 }
-.content>ul{
+.content ul{
     list-style-type: disc;
     padding-left: 5%;
 }
@@ -83,9 +85,78 @@ li{
 .content-list hr{
     background-color: #0015624d;
 }
+.contact li{
+    padding: 0px;
+    margin: 2px;
+}
 @media(max-width: 1366px){
     a{
         font-size: 25px;
+    }
+    h1{
+        font-size: 280%;
+    }
+    content h1{
+        font-size: 180%;
+    }
+}
+@media(min-width: 1366px){
+    .content a{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 350%;
+    }
+}
+@media(min-width: 1200px){
+    h1{
+        font-size: 350%;
+    }
+    .content h1{
+        font-size: 230%;
+    }
+}
+@media(max-width: 1100px){
+    h1{
+        font-size: 280%;
+    }
+    .content h1{
+        font-size: 180%;
+    }
+}
+.contact a{
+    text-decoration: none;
+}
+@media(max-width: 950px){
+    .content h1{
+        font-size: 180%;
+    }
+    body{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    h1{
+        font-size: 280%;
+    }
+    h3{
+        font-size: 180%;
+    }
+}
+@media(max-width: 676px){
+    h3{
+        font-size: 160%;
+    }
+    h1{
+        font-size: 300%;
+    }
+}
+@media(max-width: 530px){
+    h1{
+        font-size: 250%;
+    }
+    h3{
+        clear: both;
+        font-size: 150%;
     }
 }
 @media(max-width: 991px){
@@ -101,6 +172,10 @@ li{
     .content{
         margin-left: 0px;
     }
+}
+@font-face {
+    font-family: balsamiq-Sans;
+    src: url("../Balsamiq_Sans/BalsamiqSans-Regular.ttf");
 }
 #myBtn {
     display: none; 
