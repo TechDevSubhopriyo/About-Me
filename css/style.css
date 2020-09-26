@@ -52,6 +52,9 @@ h3{
     font-size: 20px;
     border-radius: 15px;
 }
+.content h1{
+    font-family: balsamiq-Sans-italic;
+}
 .content h5,h4{
     color: #4797ff;
 }
@@ -177,6 +180,10 @@ li{
     font-family: balsamiq-Sans;
     src: url("../Balsamiq_Sans/BalsamiqSans-Regular.ttf");
 }
+@font-face {
+    font-family: balsamiq-Sans-italic;
+    src: url("../Balsamiq_Sans/BalsamiqSans-Italic.ttf");
+}
 #myBtn {
     display: none; 
     position: fixed; 
@@ -185,7 +192,7 @@ li{
     z-index: 99; 
     border: none;
     outline: none; 
-    background-color: #ff54d9; 
+    background-color: #4797ff; 
     color: #001662;
     font-weight: bold;
     cursor: pointer; 
@@ -195,5 +202,5 @@ li{
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #ff54d9; /* Add a dark-grey background on hover */
   }
