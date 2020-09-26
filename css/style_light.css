@@ -5,16 +5,16 @@
     font-family: balsamiq-Sans;
 }
 body{
-    background-color: #001662;
+    background-color: #CBB8A7;
     padding: 2.5% 15% 5% 15%;
 }
 .switch>a{
     font-size: 15px;
     text-decoration: none;
-    color: #FF54D9;
+    color: #584E46;
 }
 .switch>a:hover{
-    color: #4797ff;
+    color: #FFC979;
     
 }
 header{
@@ -22,7 +22,7 @@ header{
     padding-top: 2.5%;
     padding-bottom: 5%;
     padding-right: 2.5%;
-    color: #FF54D9;
+    color: #584E46;
 }
 img{
     float: left;
@@ -37,28 +37,28 @@ h1{
 }
 h3{
     font-size: 35px;
-    color: #4797ff;
+    color: #bd6736;
 }
 .row{
     clear: both;
 }
 .content-list a{
-    color: #003170;
+    color: #FFC979;
 }
 .content-list{
     float: left;
     border-radius: 10px;
     margin-top: 5%;
     clear: both;
-    color: #001662;
+    color: #FFC979;
     font-size: 200%;
 }
 .content{
     padding: 5%;
     margin-left: 5%;
     margin-top: 5%;
-    color: #FF54D9;
-    background-color: #001a7762;
+    color: #584E46;
+    background-color: #a7988c9a;
     font-size: 20px;
     border-radius: 15px;
 }
@@ -66,10 +66,10 @@ h3{
     font-family: balsamiq-Sans-italic;
 }
 .content h5,h4{
-    color: #4797ff;
+    color: #FFC979;
 }
 .content>p{
-    color: #FF54D9;
+    color: #584E46;
 }
 ul{
     list-style-type: none;
@@ -86,14 +86,14 @@ li{
     border-radius: 10px;
     margin-top: 5%;
     clear: both;
-    background-color: #FF54D9;
+    background-color: #584E46;
 }
 .content ul{
     list-style-type: disc;
     padding-left: 5%;
 }
 .content hr{
-    background-color: #ff54dab9;
+    background-color: #CBB8A7;
 }
 .content-list hr{
     background-color: #0015624d;
@@ -141,6 +141,12 @@ li{
     .content h1{
         font-size: 180%;
     }
+}
+#project a,#certificate a,#contact a{
+    color: #bd6736;
+}
+#project a:hover,#certificate a:hover,#contact a:hover{
+    color: #a16d4f;
 }
 .contact a{
     text-decoration: none;
@@ -207,8 +213,8 @@ li{
     z-index: 99; 
     border: none;
     outline: none; 
-    background-color: #4797ff; 
-    color: #001662;
+    background-color: #FFC979; 
+    color: #584E46;
     font-weight: bold;
     cursor: pointer; 
     padding: 15px; 
@@ -217,5 +223,5 @@ li{
   }
   
   #myBtn:hover {
-    background-color: #ff54d9; /* Add a dark-grey background on hover */
+    background-color: #ffaa79; /* Add a dark-grey background on hover */
   }
